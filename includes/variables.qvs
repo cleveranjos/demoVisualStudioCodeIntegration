@@ -1,0 +1,3 @@
+Let vData=Num(Today());
+Let v1 = 1000;
+Let v2 = 2000;
