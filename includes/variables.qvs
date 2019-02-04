@@ -8,3 +8,16 @@ Load * inline [
     3,4
 ];
 
+SET vSet=SUM([Valor Principal IOF]);
+
+TAG v1 with '"uma tag de negocios"';
+
+tagmap:
+Mapping
+Load * Inline [
+    campo,descricao
+    v1, Variavel de negocios 1
+    v2, Variavel de negocios 2
+];
+
+tag fields using tagmap;
