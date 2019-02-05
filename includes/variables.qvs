@@ -12,6 +12,8 @@ SET vSet=SUM([Valor Principal IOF]);
 
 TAG v1 with '"uma tag de negocios"';
 
+
+
 tagmap:
 Mapping
 Load * Inline [
